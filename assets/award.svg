@@ -32,10 +32,10 @@
       <circle r="58" stroke="#F5B841" stroke-opacity=".25" stroke-width="1.5"/>
       <circle r="58" stroke="#F5B841" stroke-width="2.5" stroke-dasharray="40 325" class="orbit"/>
       <circle r="44" fill="#0F141C" stroke="#F5B841" stroke-opacity=".6"/>
-      <text y="14" text-anchor="middle" class="sans" font-size="40" font-weight="800" fill="url(#gold)">2</text>
-      <text x="17" y="-8" class="sans" font-size="15" font-weight="700" fill="#F5B841">ND</text>
+      <text y="14" text-anchor="middle" class="sans" font-size="40" font-weight="800" fill="url(#gold)">1</text>
+      <text x="13" y="-8" class="sans" font-size="15" font-weight="700" fill="#F5B841">ST</text>
     </g>
-    <text x="224" y="68" class="mono" font-size="13" fill="#F5B841" letter-spacing="3">SECOND PLACE  /  NATIONAL LEVEL</text>
+    <text x="224" y="68" class="mono" font-size="13" fill="#F5B841" letter-spacing="3">FIRST PLACE  /  NATIONAL LEVEL</text>
     <text x="224" y="112" class="sans" font-size="31" font-weight="700" fill="url(#shine)">National Hackathon for Innovation and Digital Design</text>
     <text x="224" y="146" class="sans" font-size="16" fill="#8B98A9">Mostaganem, Algeria  <tspan fill="#4A5768">|</tspan>  Project: <tspan fill="#E6EDF3">Sadeem</tspan>, a gamified learning platform for Algerian youth</text>
     <text x="1136" y="68" text-anchor="end" class="sans" font-size="15" fill="#8B98A9">&#1575;&#1604;&#1607;&#1575;&#1603;&#1575;&#1579;&#1608;&#1606; &#1575;&#1604;&#1608;&#1591;&#1606;&#1610; &#1604;&#1604;&#1575;&#1576;&#1578;&#1603;&#1575;&#1585; &#1608;&#1575;&#1604;&#1578;&#1589;&#1605;&#1610;&#1605; &#1575;&#1604;&#1585;&#1602;&#1605;&#1610;</text>

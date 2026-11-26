@@ -54,7 +54,7 @@
     
       <g class="stat" style="animation-delay:2.60s">
         
-        <text x="64" y="360" class="sans" font-size="34" font-weight="700" fill="#F5B841">2nd</text>
+        <text x="64" y="360" class="sans" font-size="34" font-weight="700" fill="#F5B841">1st</text>
         <text x="64" y="382" class="mono" font-size="12.5" fill="#8B98A9" letter-spacing=".5">national hackathon</text>
         <text x="64" y="402" class="mono" font-size="12.5" fill="#4A5768" letter-spacing=".5">Mostaganem</text>
       </g>

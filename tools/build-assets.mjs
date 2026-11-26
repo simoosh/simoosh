@@ -64,7 +64,7 @@ const cropMarks = (w, h, m = 18, l = 14, color = C.dim) => {
 {
   const W = 1200, H = 448, PAD = 64;
   const stats = [
-    ['2nd', 'national hackathon', 'Mostaganem'],
+    ['1st', 'national hackathon', 'Mostaganem'],
     ['68', 'sites on a touch kiosk', 'national expo, Algiers'],
     ['4', 'upstream contributions', 'open source'],
     ['6+', 'AI providers', 'behind one adapter'],
@@ -225,10 +225,10 @@ for (const [n, title, sub] of sections) {
       <circle r="58" stroke="${C.amber}" stroke-opacity=".25" stroke-width="1.5"/>
       <circle r="58" stroke="${C.amber}" stroke-width="2.5" stroke-dasharray="40 325" class="orbit"/>
       <circle r="44" fill="${C.panel}" stroke="${C.amber}" stroke-opacity=".6"/>
-      <text y="14" text-anchor="middle" class="sans" font-size="40" font-weight="800" fill="url(#gold)">2</text>
-      <text x="17" y="-8" class="sans" font-size="15" font-weight="700" fill="${C.amber}">ND</text>
+      <text y="14" text-anchor="middle" class="sans" font-size="40" font-weight="800" fill="url(#gold)">1</text>
+      <text x="13" y="-8" class="sans" font-size="15" font-weight="700" fill="${C.amber}">ST</text>
     </g>
-    <text x="224" y="68" class="mono" font-size="13" fill="${C.amber}" letter-spacing="3">SECOND PLACE  /  NATIONAL LEVEL</text>
+    <text x="224" y="68" class="mono" font-size="13" fill="${C.amber}" letter-spacing="3">FIRST PLACE  /  NATIONAL LEVEL</text>
     <text x="224" y="112" class="sans" font-size="31" font-weight="700" fill="url(#shine)">National Hackathon for Innovation and Digital Design</text>
     <text x="224" y="146" class="sans" font-size="16" fill="${C.muted}">Mostaganem, Algeria  <tspan fill="${C.dim}">|</tspan>  Project: <tspan fill="${C.text}">Sadeem</tspan>, a gamified learning platform for Algerian youth</text>
     <text x="${W - 64}" y="68" text-anchor="end" class="sans" font-size="15" fill="${C.muted}">&#1575;&#1604;&#1607;&#1575;&#1603;&#1575;&#1579;&#1608;&#1606; &#1575;&#1604;&#1608;&#1591;&#1606;&#1610; &#1604;&#1604;&#1575;&#1576;&#1578;&#1603;&#1575;&#1585; &#1608;&#1575;&#1604;&#1578;&#1589;&#1605;&#1610;&#1605; &#1575;&#1604;&#1585;&#1602;&#1605;&#1610;</text>

@@ -22,7 +22,7 @@ I work across the whole stack, from interfaces in **React, Next.js and TypeScrip
 
 <img src="assets/section-02.svg" alt="02 Recognition" width="100%">
 
-<img src="assets/award.svg" alt="Second place, National Hackathon for Innovation and Digital Design, Mostaganem" width="100%">
+<img src="assets/award.svg" alt="First place, National Hackathon for Innovation and Digital Design, Mostaganem" width="100%">
 
 <br>
 
@@ -56,11 +56,11 @@ Touch-screen kiosk of the Youth Establishments Office of Béjaïa, run on the st
 
 ### Sadeem
 
-<sub><b>DEVELOPER</b> &nbsp;/&nbsp; GAMIFIED LEARNING &middot; 2ND PLACE NATIONAL</sub>
+<sub><b>DEVELOPER</b> &nbsp;/&nbsp; GAMIFIED LEARNING &middot; 1ST PLACE NATIONAL</sub>
 
 <img src="assets/sadeem.webp" alt="Sadeem walkthrough: landing, sign-up, subject selection and lesson" width="100%">
 
-Arabic-first learning platform for ages 5 to 17, born at a hackathon and awarded second place nationally. XP, streaks, hearts, leaderboards, six mini-game types, and dedicated spaces for students, teachers, parents and administrators. Answers are validated server-side, the interface is fully right-to-left.
+Arabic-first learning platform for ages 5 to 17, built with Adem Mila and awarded first place at a national hackathon. XP, streaks, hearts, leaderboards, six mini-game types, and dedicated spaces for students, teachers, parents and administrators. Answers are validated server-side, the interface is fully right-to-left.
 
 **Stack** &nbsp; `React` `TypeScript` `Vite` `Tailwind` `React Three Fiber` `Node.js` `Express` `MongoDB` `JWT`
 
@@ -129,7 +129,7 @@ Every component has a reason to exist and a price to pay. I reason about systems
 | **AutoCAD auto-save** | Python watchdog plus AutoLISP `SAVETIME` so drawings are never lost on legacy Windows 7 machines. | Python, AutoLISP |
 | **Annuaire Étudiants** | Benchmarks of data structures for a student directory, with plotted results. | C, Python, Gnuplot, Make |
 
-**Hackathons:** National Hackathon for Innovation and Digital Design, Mostaganem (**2nd place**, Sadeem) &nbsp;/&nbsp; Hackathon Akbou &nbsp;/&nbsp; ECOHACK26, Ichelladen.
+**Hackathons:** National Hackathon for Innovation and Digital Design, Mostaganem (**1st place**, Sadeem, with Adem Mila) &nbsp;/&nbsp; Hackathon Akbou &nbsp;/&nbsp; EcoHack, Chellata.
 
 **Frequent collaborator:** [Adem Mila](https://github.com/linuxcoding-ADAM), on Salat, its website and several hackathon teams.
 
