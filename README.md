@@ -28,40 +28,41 @@ I work across the whole stack, from interfaces in **React, Next.js and TypeScrip
 
 <img src="assets/section-03.svg" alt="03 Selected work" width="100%">
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/simoosh/profscanner"><img src="assets/card-profscanner.svg" alt="ProfScanner" width="100%"></a>
-<p>
-<b>Creator.</b> A vision model reads the page, a custom generator rebuilds it as OOXML with real, clickable Word equations. Local-first: no server, no account, keys never leave the browser.
-<br><br>
-<a href="https://profscanner.netlify.app"><b>Live demo</b></a> &nbsp;/&nbsp; <a href="https://github.com/simoosh/profscanner">Repository</a> &nbsp;/&nbsp; <a href="https://github.com/simoosh/profscanner/releases">Releases</a>
-</p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/simoosh/ODEJ_KIOSK"><img src="assets/card-odej.svg" alt="ODEJ Kiosk" width="100%"></a>
-<p>
-<b>Lead developer.</b> Self-hosted 3D terrain, progressive fog, frosted-glass UI, Remotion intro, a media pipeline to a CDN and an offline pack for the kiosk. Delivered in eight CI-gated steps.
-<br><br>
-<a href="https://odej-bejaia.netlify.app"><b>Live site</b></a> &nbsp;/&nbsp; <a href="https://github.com/simoosh/ODEJ_KIOSK">Repository</a>
-</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/card-wladz.svg" alt="Wladz" width="100%">
-<p>
-<b>Full-stack developer.</b> A hub of mini-games (story-driven open world, history of the 58 wilayas, math, prevention) with accounts, roadmaps, points and leaderboards. Session auth on SQLite with hashed tokens.
-</p>
-</td>
-<td width="50%" valign="top">
-<img src="assets/card-sadeem.svg" alt="Sadeem" width="100%">
-<p>
-<b>Developer.</b> Born at a hackathon, awarded second place nationally. Server-side answer validation, role-based spaces, a reactive mascot and a full RTL interface.
-</p>
-</td>
-</tr>
-</table>
+### ProfScanner
+
+<sub><b>CREATOR</b> &nbsp;/&nbsp; AI &middot; DOCUMENTS &middot; PWA</sub>
+
+<a href="https://profscanner.netlify.app"><img src="assets/profscanner-hero.svg" alt="ProfScanner: handwritten page in, editable Word document out" width="100%"></a>
+
+Take a photo of a handwritten exam or exercise sheet and get back a `.docx` you can keep editing, with real, clickable Word equations. A vision model reads the page, a custom generator rebuilds it as OOXML. Arabic, French and English on the same page. Local-first: no server, no account, keys never leave the browser.
+
+**Stack** &nbsp; `React` `TypeScript` `Vite` `Tailwind` `Vision LLMs` `MathML to OMML` `PWA`<br>
+**Links** &nbsp; [Live demo](https://profscanner.netlify.app) &nbsp;&middot;&nbsp; [Repository](https://github.com/simoosh/profscanner) &nbsp;&middot;&nbsp; [Releases](https://github.com/simoosh/profscanner/releases)
+
+<br>
+
+### ODEJ Kiosk
+
+<sub><b>LEAD DEVELOPER</b> &nbsp;/&nbsp; GEOSPATIAL &middot; KIOSK &middot; BILINGUAL</sub>
+
+<a href="https://odej-bejaia.netlify.app"><img src="assets/odej-kiosk.webp" alt="ODEJ Kiosk running: landing screen with the official figures and the map of Béjaïa" width="100%"></a>
+
+Touch-screen kiosk of the Youth Establishments Office of Béjaïa, run on the stand at the national youth establishments exhibition in Algiers. A 3D map of the wilaya and its 68 establishments, in Arabic and English, portrait and landscape. Self-hosted terrain, progressive fog, a Remotion intro, a media pipeline to a CDN and an offline pack for the kiosk, delivered in eight CI-gated steps.
+
+**Stack** &nbsp; `React 19` `TypeScript` `Vite` `MapLibre GL` `Remotion` `sharp` `Vitest` `GitHub Actions` `Netlify` `Cloudflare Pages`<br>
+**Links** &nbsp; [Live site](https://odej-bejaia.netlify.app) &nbsp;&middot;&nbsp; [Repository](https://github.com/simoosh/ODEJ_KIOSK)
+
+<br>
+
+### Sadeem
+
+<sub><b>DEVELOPER</b> &nbsp;/&nbsp; GAMIFIED LEARNING &middot; 2ND PLACE NATIONAL</sub>
+
+<img src="assets/sadeem.webp" alt="Sadeem walkthrough: landing, sign-up, subject selection and lesson" width="100%">
+
+Arabic-first learning platform for ages 5 to 17, born at a hackathon and awarded second place nationally. XP, streaks, hearts, leaderboards, six mini-game types, and dedicated spaces for students, teachers, parents and administrators. Answers are validated server-side, the interface is fully right-to-left.
+
+**Stack** &nbsp; `React` `TypeScript` `Vite` `Tailwind` `React Three Fiber` `Node.js` `Express` `MongoDB` `JWT`
 
 <br>
 
@@ -120,6 +121,7 @@ Every component has a reason to exist and a price to pay. I reason about systems
 
 | Project | What it is | Stack |
 |:--|:--|:--|
+| **Wladz** | Hub of educational games for Algerian children aged 7 to 15: prevention, civics, history of the 58 wilayas, a story-driven open world. Built for the Ministry of Youth. | Next.js, Three.js, GSAP, SQLite, Tailwind |
 | **Maghamer** | Educational game platform on Algerian history and civic values: missions, quizzes, rewards, 9 server-validated mini-game types. Hackathon build. | React, Vite, Express, MongoDB, MySQL, JWT |
 | **Forsati** | Connects Algerian youth to youth establishments: recommendations, event registration, QR ticketing. Team build at ECOHACK26. | Next.js, Firebase, QR codes |
 | **Boutique Rayane** | E-commerce front with a product customizer on canvas and image compression in the browser. | React, Fabric.js, Firebase, Zustand, Zod |
