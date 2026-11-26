@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#151D29" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+    <filter id="g2" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .sans{font-family:'Segoe UI Variable Display','Segoe UI','Inter','Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+    
+      .st{animation:st 3.5s ease-in-out infinite}
+      @keyframes st{0%,100%{opacity:.75}12%{opacity:1}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="#0A0E14"/>
+    
+    <rect width="1200" height="300" fill="url(#grid)" opacity=".8"/>
+    <text x="48" y="54" class="mono" font-size="13" fill="#F5B841" letter-spacing="2">PIPELINE  /  PROFSCANNER</text>
+    <text x="48" y="84" class="sans" font-size="21" font-weight="700" fill="#E6EDF3">Handwriting to an editable Word document, entirely in the browser.</text>
+    <path d="M244 158H274" stroke="#223044" stroke-width="2"/><path d="M470 158H500" stroke="#223044" stroke-width="2"/><path d="M696 158H726" stroke="#223044" stroke-width="2"/><path d="M922 158H952" stroke="#223044" stroke-width="2"/>
+    <path d="M48 222H1148" stroke="#223044" stroke-dasharray="2 6"/>
+    
+      <g class="st" style="animation-delay:0.0s">
+        <rect x="48" y="110" width="196" height="96" rx="12" fill="#0F141C" stroke="#8B98A9" stroke-opacity=".7" stroke-width="1.5"/>
+        <text x="66" y="138" class="mono" font-size="12" fill="#8B98A9" letter-spacing="2">01</text>
+        <text x="66" y="167" class="sans" font-size="19" font-weight="700" fill="#E6EDF3">Capture</text>
+        <text x="66" y="190" class="mono" font-size="11.5" fill="#8B98A9">photo / scan / PDF</text>
+      </g>
+      <g class="st" style="animation-delay:0.7s">
+        <rect x="274" y="110" width="196" height="96" rx="12" fill="#0F141C" stroke="#5EEAD4" stroke-opacity=".7" stroke-width="1.5"/>
+        <text x="292" y="138" class="mono" font-size="12" fill="#5EEAD4" letter-spacing="2">02</text>
+        <text x="292" y="167" class="sans" font-size="19" font-weight="700" fill="#E6EDF3">Vision LLM</text>
+        <text x="292" y="190" class="mono" font-size="11.5" fill="#8B98A9">any provider, your key</text>
+      </g>
+      <g class="st" style="animation-delay:1.4s">
+        <rect x="500" y="110" width="196" height="96" rx="12" fill="#0F141C" stroke="#A78BFA" stroke-opacity=".7" stroke-width="1.5"/>
+        <text x="518" y="138" class="mono" font-size="12" fill="#A78BFA" letter-spacing="2">03</text>
+        <text x="518" y="167" class="sans" font-size="19" font-weight="700" fill="#E6EDF3">Structure</text>
+        <text x="518" y="190" class="mono" font-size="11.5" fill="#8B98A9">HTML + MathML + RTL</text>
+      </g>
+      <g class="st" style="animation-delay:2.1s">
+        <rect x="726" y="110" width="196" height="96" rx="12" fill="#0F141C" stroke="#F5B841" stroke-opacity=".7" stroke-width="1.5"/>
+        <text x="744" y="138" class="mono" font-size="12" fill="#F5B841" letter-spacing="2">04</text>
+        <text x="744" y="167" class="sans" font-size="19" font-weight="700" fill="#E6EDF3">Convert</text>
+        <text x="744" y="190" class="mono" font-size="11.5" fill="#8B98A9">MathML to OMML</text>
+      </g>
+      <g class="st" style="animation-delay:2.8s">
+        <rect x="952" y="110" width="196" height="96" rx="12" fill="#0F141C" stroke="#7EE787" stroke-opacity=".7" stroke-width="1.5"/>
+        <text x="970" y="138" class="mono" font-size="12" fill="#7EE787" letter-spacing="2">05</text>
+        <text x="970" y="167" class="sans" font-size="19" font-weight="700" fill="#E6EDF3">Deliver</text>
+        <text x="970" y="190" class="mono" font-size="11.5" fill="#8B98A9">.docx, native equations</text>
+      </g>
+    <circle r="5" fill="#5EEAD4" filter="url(#g2)">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M48 222H1148"/>
+    </circle>
+    <rect x="48" y="244" width="63.8" height="24" rx="12" fill="#121925" stroke="#223044"/>
+      <text x="79.9" y="260" text-anchor="middle" class="mono" font-size="12" fill="#5EEAD4">Gemini</text><rect x="119.8" y="244" width="63.8" height="24" rx="12" fill="#121925" stroke="#223044"/>
+      <text x="151.7" y="260" text-anchor="middle" class="mono" font-size="12" fill="#5EEAD4">Claude</text><rect x="191.6" y="244" width="93" height="24" rx="12" fill="#121925" stroke="#223044"/>
+      <text x="238.1" y="260" text-anchor="middle" class="mono" font-size="12" fill="#5EEAD4">NVIDIA NIM</text><rect x="292.6" y="244" width="71.1" height="24" rx="12" fill="#121925" stroke="#223044"/>
+      <text x="328.15000000000003" y="260" text-anchor="middle" class="mono" font-size="12" fill="#5EEAD4">Mistral</text><rect x="371.70000000000005" y="244" width="93" height="24" rx="12" fill="#121925" stroke="#223044"/>
+      <text x="418.20000000000005" y="260" text-anchor="middle" class="mono" font-size="12" fill="#5EEAD4">OpenRouter</text><rect x="472.70000000000005" y="244" width="122.2" height="24" rx="12" fill="#121925" stroke="#223044"/>
+      <text x="533.8000000000001" y="260" text-anchor="middle" class="mono" font-size="12" fill="#5EEAD4">Ollama (local)</text><rect x="602.9000000000001" y="244" width="202.5" height="24" rx="12" fill="#121925" stroke="#223044"/>
+      <text x="704.1500000000001" y="260" text-anchor="middle" class="mono" font-size="12" fill="#5EEAD4">any OpenAI-compatible API</text>
+  
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="18" stroke="#223044"/>
+</svg>

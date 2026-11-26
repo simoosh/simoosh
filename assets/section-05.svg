@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="78" viewBox="0 0 1200 78" fill="none">
+  <style>
+    .mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+    .ln{animation:ln 1.6s cubic-bezier(.6,.05,.3,1) .2s both}
+    @keyframes ln{from{stroke-dasharray:1200;stroke-dashoffset:1200}to{stroke-dasharray:1200;stroke-dashoffset:0}}
+    .dot{animation:run 5s ease-in-out infinite}
+    @keyframes run{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(756.5px);opacity:0}}
+  </style>
+  <text x="20" y="44" class="mono" font-size="15" fill="#F5B841" letter-spacing="2">05</text>
+  <path d="M58 30V50" stroke="#4A5768" stroke-width="1.5"/>
+  <text x="76" y="46" class="mono" font-size="28" font-weight="700" fill="#5EEAD4" letter-spacing="3">SYSTEM DESIGN</text>
+  <path class="ln" d="M403.5 37H1180" stroke="#223044" stroke-width="1.5"/>
+  <circle class="dot" cx="403.5" cy="37" r="3.5" fill="#5EEAD4"/>
+  <text x="1180" y="66" text-anchor="end" class="mono" font-size="12" fill="#4A5768" letter-spacing="1">// components added only when something breaks</text>
+</svg>

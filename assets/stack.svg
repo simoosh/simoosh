@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="564" viewBox="0 0 1200 564" fill="none">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#151D29" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="564" rx="18"/></clipPath>
+    
+  </defs>
+  <style>
+    .sans{font-family:'Segoe UI Variable Display','Segoe UI','Inter','Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+    
+      .chip{animation:chip .5s ease both}
+      @keyframes chip{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="564" fill="#0A0E14"/>
+    <rect width="1200" height="564" fill="url(#grid)" opacity=".5"/>
+      <rect x="48" y="44" width="3" height="16" fill="#5EEAD4"/>
+      <text x="62" y="57" class="mono" font-size="12.5" fill="#5EEAD4" letter-spacing="2">LANGUAGES</text>
+      <g class="chip" style="animation-delay:0.00s">
+        <rect x="258" y="40" width="100" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="308" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">TypeScript</text></g><g class="chip" style="animation-delay:0.04s">
+        <rect x="366" y="40" width="100" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="416" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">JavaScript</text></g><g class="chip" style="animation-delay:0.08s">
+        <rect x="474" y="40" width="69.6" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="508.8" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Python</text></g><g class="chip" style="animation-delay:0.12s">
+        <rect x="551.6" y="40" width="54.4" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="578.8000000000001" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Rust</text></g><g class="chip" style="animation-delay:0.16s">
+        <rect x="614" y="40" width="31.6" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="629.8" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">C</text></g><g class="chip" style="animation-delay:0.20s">
+        <rect x="653.6" y="40" width="46.8" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="677" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">SQL</text></g><g class="chip" style="animation-delay:0.24s">
+        <rect x="708.4" y="40" width="54.4" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="735.6" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Bash</text></g><g class="chip" style="animation-delay:0.28s">
+        <rect x="770.8" y="40" width="100" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="820.8" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">HTML / CSS</text></g><g class="chip" style="animation-delay:0.32s">
+        <rect x="878.8" y="40" width="84.8" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="921.1999999999999" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">AutoLISP</text></g><g class="chip" style="animation-delay:0.36s">
+        <rect x="971.5999999999999" y="40" width="69.6" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="1006.3999999999999" y="56.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Pascal</text></g><path d="M48 78H1152" stroke="#151D29"/>
+      <rect x="48" y="94" width="3" height="16" fill="#A78BFA"/>
+      <text x="62" y="107" class="mono" font-size="12.5" fill="#A78BFA" letter-spacing="2">FRONTEND</text>
+      <g class="chip" style="animation-delay:0.40s">
+        <rect x="258" y="90" width="84.8" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="300.4" y="106.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">React 19</text></g><g class="chip" style="animation-delay:0.44s">
+        <rect x="350.8" y="90" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="389.4" y="106.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Next.js</text></g><g class="chip" style="animation-delay:0.48s">
+        <rect x="436" y="90" width="54.4" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="463.2" y="106.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Vite</text></g><g class="chip" style="animation-delay:0.52s">
+        <rect x="498.4" y="90" width="115.19999999999999" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="556" y="106.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Tailwind CSS</text></g><g class="chip" style="animation-delay:0.56s">
+        <rect x="621.5999999999999" y="90" width="84.8" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="663.9999999999999" y="106.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Three.js</text></g><g class="chip" style="animation-delay:0.60s">
+        <rect x="714.3999999999999" y="90" width="153.2" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="790.9999999999999" y="106.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">React Three Fiber</text></g><g class="chip" style="animation-delay:0.64s">
+        <rect x="875.5999999999999" y="90" width="54.4" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="902.8" y="106.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">GSAP</text></g><g class="chip" style="animation-delay:0.68s">
+        <rect x="937.9999999999999" y="90" width="122.8" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="999.3999999999999" y="106.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Framer Motion</text></g><g class="chip" style="animation-delay:0.72s">
+        <rect x="258" y="122" width="107.6" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="311.8" y="138.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">MapLibre GL</text></g><g class="chip" style="animation-delay:0.76s">
+        <rect x="373.6" y="122" width="84.8" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="416" y="138.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Remotion</text></g><g class="chip" style="animation-delay:0.80s">
+        <rect x="466.40000000000003" y="122" width="92.39999999999999" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="512.6" y="138.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Fabric.js</text></g><g class="chip" style="animation-delay:0.84s">
+        <rect x="566.8000000000001" y="122" width="46.8" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="590.2" y="138.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">PWA</text></g><g class="chip" style="animation-delay:0.88s">
+        <rect x="621.6" y="122" width="100" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="671.6" y="138.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">RTL / i18n</text></g><path d="M48 160H1152" stroke="#151D29"/>
+      <rect x="48" y="176" width="3" height="16" fill="#7EE787"/>
+      <text x="62" y="189" class="mono" font-size="12.5" fill="#7EE787" letter-spacing="2">BACKEND &amp; DATA</text>
+      <g class="chip" style="animation-delay:0.92s">
+        <rect x="258" y="172" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="296.6" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Node.js</text></g><g class="chip" style="animation-delay:0.96s">
+        <rect x="343.2" y="172" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="381.79999999999995" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Express</text></g><g class="chip" style="animation-delay:1.00s">
+        <rect x="428.4" y="172" width="92.39999999999999" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="474.59999999999997" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">REST APIs</text></g><g class="chip" style="animation-delay:1.04s">
+        <rect x="528.8" y="172" width="130.39999999999998" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="594" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">JWT / sessions</text></g><g class="chip" style="animation-delay:1.08s">
+        <rect x="667.1999999999999" y="172" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="705.8" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">MongoDB</text></g><g class="chip" style="animation-delay:1.12s">
+        <rect x="752.3999999999999" y="172" width="84.8" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="794.7999999999998" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Mongoose</text></g><g class="chip" style="animation-delay:1.16s">
+        <rect x="845.1999999999998" y="172" width="62" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="876.1999999999998" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">MySQL</text></g><g class="chip" style="animation-delay:1.20s">
+        <rect x="915.1999999999998" y="172" width="69.6" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="949.9999999999998" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">SQLite</text></g><g class="chip" style="animation-delay:1.24s">
+        <rect x="992.7999999999998" y="172" width="69.6" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="1027.6" y="188.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Prisma</text></g><g class="chip" style="animation-delay:1.28s">
+        <rect x="258" y="204" width="84.8" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="300.4" y="220.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Firebase</text></g><g class="chip" style="animation-delay:1.32s">
+        <rect x="350.8" y="204" width="46.8" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="374.2" y="220.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Zod</text></g><g class="chip" style="animation-delay:1.36s">
+        <rect x="405.6" y="204" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#7EE787" stroke-opacity=".35"/>
+        <text x="444.20000000000005" y="220.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Zustand</text></g><path d="M48 242H1152" stroke="#151D29"/>
+      <rect x="48" y="258" width="3" height="16" fill="#F5B841"/>
+      <text x="62" y="271" class="mono" font-size="12.5" fill="#F5B841" letter-spacing="2">AI &amp; AUTOMATION</text>
+      <g class="chip" style="animation-delay:1.40s">
+        <rect x="258" y="254" width="84.8" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="300.4" y="270.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">LLM APIs</text></g><g class="chip" style="animation-delay:1.44s">
+        <rect x="350.8" y="254" width="176" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="438.8" y="270.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Vision OCR pipelines</text></g><g class="chip" style="animation-delay:1.48s">
+        <rect x="534.8" y="254" width="69.6" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="569.5999999999999" y="270.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Gemini</text></g><g class="chip" style="animation-delay:1.52s">
+        <rect x="612.4" y="254" width="69.6" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="647.1999999999999" y="270.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Claude</text></g><g class="chip" style="animation-delay:1.56s">
+        <rect x="690" y="254" width="107.6" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="743.8" y="270.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Claude Code</text></g><g class="chip" style="animation-delay:1.60s">
+        <rect x="805.6" y="254" width="100" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="855.6" y="270.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">NVIDIA NIM</text></g><g class="chip" style="animation-delay:1.64s">
+        <rect x="913.6" y="254" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="952.2" y="270.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Mistral</text></g><g class="chip" style="animation-delay:1.68s">
+        <rect x="998.8" y="254" width="100" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="1048.8" y="270.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">OpenRouter</text></g><g class="chip" style="animation-delay:1.72s">
+        <rect x="258" y="286" width="69.6" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="292.8" y="302.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Ollama</text></g><g class="chip" style="animation-delay:1.76s">
+        <rect x="335.6" y="286" width="153.2" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="412.20000000000005" y="302.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Agentic workflows</text></g><g class="chip" style="animation-delay:1.80s">
+        <rect x="496.8" y="286" width="160.79999999999998" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="577.2" y="302.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Prompt engineering</text></g><g class="chip" style="animation-delay:1.84s">
+        <rect x="665.6" y="286" width="153.2" height="24" rx="6" fill="#121925" stroke="#F5B841" stroke-opacity=".35"/>
+        <text x="742.2" y="302.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Python automation</text></g><path d="M48 324H1152" stroke="#151D29"/>
+      <rect x="48" y="340" width="3" height="16" fill="#FF7A6B"/>
+      <text x="62" y="353" class="mono" font-size="12.5" fill="#FF7A6B" letter-spacing="2">DOCS &amp; MEDIA</text>
+      <g class="chip" style="animation-delay:1.88s">
+        <rect x="258" y="336" width="115.19999999999999" height="24" rx="6" fill="#121925" stroke="#FF7A6B" stroke-opacity=".35"/>
+        <text x="315.6" y="352.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">OOXML / DOCX</text></g><g class="chip" style="animation-delay:1.92s">
+        <rect x="381.2" y="336" width="130.39999999999998" height="24" rx="6" fill="#121925" stroke="#FF7A6B" stroke-opacity=".35"/>
+        <text x="446.4" y="352.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">MathML to OMML</text></g><g class="chip" style="animation-delay:1.96s">
+        <rect x="519.5999999999999" y="336" width="69.6" height="24" rx="6" fill="#121925" stroke="#FF7A6B" stroke-opacity=".35"/>
+        <text x="554.3999999999999" y="352.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Pandoc</text></g><g class="chip" style="animation-delay:2.00s">
+        <rect x="597.1999999999999" y="336" width="62" height="24" rx="6" fill="#121925" stroke="#FF7A6B" stroke-opacity=".35"/>
+        <text x="628.1999999999999" y="352.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">JSZip</text></g><g class="chip" style="animation-delay:2.04s">
+        <rect x="667.1999999999999" y="336" width="62" height="24" rx="6" fill="#121925" stroke="#FF7A6B" stroke-opacity=".35"/>
+        <text x="698.1999999999999" y="352.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">sharp</text></g><g class="chip" style="animation-delay:2.08s">
+        <rect x="737.1999999999999" y="336" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#FF7A6B" stroke-opacity=".35"/>
+        <text x="775.8" y="352.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Cheerio</text></g><path d="M48 374H1152" stroke="#151D29"/>
+      <rect x="48" y="390" width="3" height="16" fill="#5EEAD4"/>
+      <text x="62" y="403" class="mono" font-size="12.5" fill="#5EEAD4" letter-spacing="2">INFRA &amp; DELIVERY</text>
+      <g class="chip" style="animation-delay:2.12s">
+        <rect x="258" y="386" width="115.19999999999999" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="315.6" y="402.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Git / GitHub</text></g><g class="chip" style="animation-delay:2.16s">
+        <rect x="381.2" y="386" width="130.39999999999998" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="446.4" y="402.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">GitHub Actions</text></g><g class="chip" style="animation-delay:2.20s">
+        <rect x="519.5999999999999" y="386" width="69.6" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="554.3999999999999" y="402.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Docker</text></g><g class="chip" style="animation-delay:2.24s">
+        <rect x="597.1999999999999" y="386" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="635.8" y="402.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Netlify</text></g><g class="chip" style="animation-delay:2.28s">
+        <rect x="682.3999999999999" y="386" width="69.6" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="717.1999999999998" y="402.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Vercel</text></g><g class="chip" style="animation-delay:2.32s">
+        <rect x="759.9999999999999" y="386" width="69.6" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="794.7999999999998" y="402.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Render</text></g><g class="chip" style="animation-delay:2.36s">
+        <rect x="837.5999999999999" y="386" width="145.6" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="910.3999999999999" y="402.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Cloudflare Pages</text></g><g class="chip" style="animation-delay:2.40s">
+        <rect x="991.1999999999999" y="386" width="69.6" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="1026" y="402.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Vitest</text></g><g class="chip" style="animation-delay:2.44s">
+        <rect x="258" y="418" width="153.2" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="334.6" y="434.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">ESLint / Prettier</text></g><g class="chip" style="animation-delay:2.48s">
+        <rect x="419.2" y="418" width="62" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="450.2" y="434.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Linux</text></g><g class="chip" style="animation-delay:2.52s">
+        <rect x="489.2" y="418" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#5EEAD4" stroke-opacity=".35"/>
+        <text x="527.8" y="434.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">systemd</text></g><path d="M48 456H1152" stroke="#151D29"/>
+      <rect x="48" y="472" width="3" height="16" fill="#A78BFA"/>
+      <text x="62" y="485" class="mono" font-size="12.5" fill="#A78BFA" letter-spacing="2">ENGINEERING</text>
+      <g class="chip" style="animation-delay:2.56s">
+        <rect x="258" y="468" width="122.8" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="319.4" y="484.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">System design</text></g><g class="chip" style="animation-delay:2.60s">
+        <rect x="388.8" y="468" width="130.39999999999998" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="454" y="484.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Load balancing</text></g><g class="chip" style="animation-delay:2.64s">
+        <rect x="527.2" y="468" width="77.19999999999999" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="565.8000000000001" y="484.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Caching</text></g><g class="chip" style="animation-delay:2.68s">
+        <rect x="612.4000000000001" y="468" width="107.6" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="666.2" y="484.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Replication</text></g><g class="chip" style="animation-delay:2.72s">
+        <rect x="728.0000000000001" y="468" width="138" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="797.0000000000001" y="484.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Control systems</text></g><g class="chip" style="animation-delay:2.76s">
+        <rect x="874.0000000000001" y="468" width="168.4" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="958.2000000000002" y="484.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Web security audits</text></g><g class="chip" style="animation-delay:2.80s">
+        <rect x="258" y="500" width="153.2" height="24" rx="6" fill="#121925" stroke="#A78BFA" stroke-opacity=".35"/>
+        <text x="334.6" y="516.5" text-anchor="middle" class="mono" font-size="12.5" fill="#E6EDF3">Technical writing</text></g><path d="M48 538H1152" stroke="#151D29"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="563" rx="18" stroke="#223044"/>
+</svg>

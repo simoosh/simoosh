@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" fill="none">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#151D29" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="460" rx="18"/></clipPath>
+    
+      <radialGradient id="gA"><stop offset="0" stop-color="#5EEAD4" stop-opacity=".22"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/></radialGradient>
+      <radialGradient id="gB"><stop offset="0" stop-color="#F5B841" stop-opacity=".14"/><stop offset="1" stop-color="#F5B841" stop-opacity="0"/></radialGradient>
+      <linearGradient id="nameFill" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".55" stop-color="#DDE6EF"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
+      <filter id="soft" x="-5%" y="-30%" width="110%" height="160%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .sans{font-family:'Segoe UI Variable Display','Segoe UI','Inter','Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',Menlo,monospace}
+    
+      .name text{fill:url(#nameFill);stroke:#5EEAD4;stroke-width:0;
+        animation:draw 2.2s cubic-bezier(.6,.05,.3,1) both, fill 1s ease 1.8s both}
+      @keyframes draw{from{stroke-dasharray:1400;stroke-dashoffset:1400}to{stroke-dasharray:1400;stroke-dashoffset:0}}
+      @keyframes fill{from{fill-opacity:0;stroke-width:1.2}to{fill-opacity:1;stroke-width:0}}
+      .typer{opacity:0;animation:type 2.4s steps(52, jump-start) 2.1s both}
+      @keyframes type{from{transform:none;opacity:1}99.9%{opacity:1}to{transform:translateX(780px);opacity:0}}
+      .fadeIn{animation:fadein 1s ease 4.4s both}
+      @keyframes fadein{from{opacity:0}}
+      .trace{animation:trace 6s ease-in-out 1s infinite both}
+      @keyframes trace{0%{stroke-dasharray:2000;stroke-dashoffset:2000}55%{stroke-dasharray:2000;stroke-dashoffset:0}85%{stroke-dasharray:2000;stroke-dashoffset:0;opacity:1}100%{stroke-dasharray:2000;stroke-dashoffset:0;opacity:0}}
+      .scan{animation:scan 6s ease-in-out 1s infinite}
+      @keyframes scan{0%{transform:translateX(0);opacity:.8}55%{transform:translateX(1040px);opacity:.8}56%,100%{opacity:0;transform:translateX(1040px)}}
+      .blink{animation:blink 1.4s steps(2) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .glowA{animation:breathe 7s ease-in-out infinite}
+      .glowB{animation:breathe 9s ease-in-out infinite reverse}
+      @keyframes breathe{50%{opacity:.45}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="460" fill="#0A0E14"/>
+    
+    <rect width="1200" height="460" fill="url(#grid)" opacity=".9"/>
+    <circle class="glowA" cx="1010" cy="70" r="260" fill="url(#gA)"/>
+    <circle class="glowB" cx="150" cy="420" r="300" fill="url(#gB)"/>
+    <path d="M18 32V18H32" stroke="#4A5768" stroke-width="1.5"/><path d="M1182 32V18H1168" stroke="#4A5768" stroke-width="1.5"/><path d="M18 428V442H32" stroke="#4A5768" stroke-width="1.5"/><path d="M1182 428V442H1168" stroke="#4A5768" stroke-width="1.5"/>
+
+    <text x="60" y="58" class="mono" font-size="13" fill="#8B98A9" letter-spacing="2">SYS://PROFILE <tspan fill="#5EEAD4">ONLINE</tspan></text>
+    <circle cx="232" cy="53" r="4" fill="#5EEAD4" class="blink"/>
+    <text x="1140" y="58" text-anchor="end" class="mono" font-size="13" fill="#8B98A9" letter-spacing="2">36.75&#176;N  5.06&#176;E  BÉJAÏA, ALGERIA</text>
+
+    <g class="name sans">
+      <text x="56" y="168" font-size="96" font-weight="800" letter-spacing="2" textLength="1088" lengthAdjust="spacingAndGlyphs">SLIMANE SAHNOUNE</text>
+    </g>
+
+    <g class="role">
+      <text x="60" y="218" class="mono" font-size="21" fill="#F5B841" letter-spacing=".5">Full-Stack Developer <tspan fill="#4A5768">/</tspan> System Design <tspan fill="#4A5768">/</tspan> AI Integration</text>
+      <rect class="typer" x="58" y="194" width="760" height="34" fill="#0A0E14"/>
+    </g>
+    <text x="60" y="256" class="sans fadeIn" font-size="17" fill="#8B98A9">Control Engineering student (L2 Automatique), Abderrahmane Mira University of Béjaïa</text>
+
+    <rect x="60" y="300" width="1080" height="120" rx="10" fill="#0F141C" stroke="#223044"/>
+    <g opacity=".55">
+      <path d="M80 308V410" stroke="#151D29"/><path d="M145 308V410" stroke="#151D29"/><path d="M210 308V410" stroke="#151D29"/><path d="M275 308V410" stroke="#151D29"/><path d="M340 308V410" stroke="#151D29"/><path d="M405 308V410" stroke="#151D29"/><path d="M470 308V410" stroke="#151D29"/><path d="M535 308V410" stroke="#151D29"/><path d="M600 308V410" stroke="#151D29"/><path d="M665 308V410" stroke="#151D29"/><path d="M730 308V410" stroke="#151D29"/><path d="M795 308V410" stroke="#151D29"/><path d="M860 308V410" stroke="#151D29"/><path d="M925 308V410" stroke="#151D29"/><path d="M990 308V410" stroke="#151D29"/><path d="M1055 308V410" stroke="#151D29"/><path d="M1120 308V410" stroke="#151D29"/>
+    </g>
+    <path d="M80 342.0H1120" stroke="#4A5768" stroke-dasharray="4 6"/>
+    <path class="trace" d="M80.0 410.0L84.0 409.8L88.0 409.1L92.0 407.9L96.0 406.4L100.0 404.5L104.0 402.3L108.0 399.7L112.0 396.9L116.0 393.9L120.0 390.7L124.0 387.3L128.0 383.7L132.0 380.1L136.0 376.3L140.0 372.6L144.0 368.8L148.0 365.0L152.0 361.3L156.0 357.7L160.0 354.1L164.0 350.6L168.0 347.2L172.0 344.0L176.0 341.0L180.0 338.1L184.0 335.4L188.0 332.9L192.0 330.5L196.0 328.4L200.0 326.5L204.0 324.8L208.0 323.3L212.0 322.0L216.0 320.9L220.0 320.0L224.0 319.4L228.0 318.9L232.0 318.6L236.0 318.5L240.0 318.5L244.0 318.7L248.0 319.1L252.0 319.6L256.0 320.2L260.0 321.0L264.0 321.8L268.0 322.8L272.0 323.8L276.0 324.9L280.0 326.1L284.0 327.3L288.0 328.6L292.0 329.9L296.0 331.2L300.0 332.5L304.0 333.8L308.0 335.1L312.0 336.3L316.0 337.6L320.0 338.8L324.0 340.0L328.0 341.1L332.0 342.2L336.0 343.2L340.0 344.1L344.0 345.0L348.0 345.8L352.0 346.6L356.0 347.2L360.0 347.9L364.0 348.4L368.0 348.8L372.0 349.2L376.0 349.5L380.0 349.8L384.0 350.0L388.0 350.1L392.0 350.1L396.0 350.1L400.0 350.1L404.0 350.0L408.0 349.8L412.0 349.6L416.0 349.3L420.0 349.0L424.0 348.7L428.0 348.4L432.0 348.0L436.0 347.6L440.0 347.2L444.0 346.7L448.0 346.3L452.0 345.8L456.0 345.4L460.0 344.9L464.0 344.5L468.0 344.0L472.0 343.6L476.0 343.2L480.0 342.8L484.0 342.4L488.0 342.0L492.0 341.7L496.0 341.3L500.0 341.0L504.0 340.7L508.0 340.5L512.0 340.2L516.0 340.0L520.0 339.8L524.0 339.7L528.0 339.5L532.0 339.4L536.0 339.3L540.0 339.3L544.0 339.2L548.0 339.2L552.0 339.2L556.0 339.2L560.0 339.2L564.0 339.3L568.0 339.4L572.0 339.4L576.0 339.5L580.0 339.7L584.0 339.8L588.0 339.9L592.0 340.0L596.0 340.2L600.0 340.3L604.0 340.5L608.0 340.6L612.0 340.8L616.0 341.0L620.0 341.1L624.0 341.3L628.0 341.4L632.0 341.6L636.0 341.7L640.0 341.8L644.0 342.0L648.0 342.1L652.0 342.2L656.0 342.3L660.0 342.4L664.0 342.5L668.0 342.6L672.0 342.7L676.0 342.7L680.0 342.8L684.0 342.8L688.0 342.9L692.0 342.9L696.0 342.9L700.0 343.0L704.0 343.0L708.0 343.0L712.0 343.0L716.0 343.0L720.0 342.9L724.0 342.9L728.0 342.9L732.0 342.9L736.0 342.8L740.0 342.8L744.0 342.7L748.0 342.7L752.0 342.6L756.0 342.6L760.0 342.5L764.0 342.5L768.0 342.4L772.0 342.4L776.0 342.3L780.0 342.3L784.0 342.2L788.0 342.2L792.0 342.1L796.0 342.1L800.0 342.0L804.0 342.0L808.0 341.9L812.0 341.9L816.0 341.9L820.0 341.8L824.0 341.8L828.0 341.8L832.0 341.7L836.0 341.7L840.0 341.7L844.0 341.7L848.0 341.7L852.0 341.7L856.0 341.7L860.0 341.7L864.0 341.7L868.0 341.7L872.0 341.7L876.0 341.7L880.0 341.7L884.0 341.7L888.0 341.7L892.0 341.7L896.0 341.7L900.0 341.7L904.0 341.8L908.0 341.8L912.0 341.8L916.0 341.8L920.0 341.8L924.0 341.8L928.0 341.9L932.0 341.9L936.0 341.9L940.0 341.9L944.0 341.9L948.0 342.0L952.0 342.0L956.0 342.0L960.0 342.0L964.0 342.0L968.0 342.0L972.0 342.0L976.0 342.1L980.0 342.1L984.0 342.1L988.0 342.1L992.0 342.1L996.0 342.1L1000.0 342.1L1004.0 342.1L1008.0 342.1L1012.0 342.1L1016.0 342.1L1020.0 342.1L1024.0 342.1L1028.0 342.1L1032.0 342.1L1036.0 342.1L1040.0 342.1L1044.0 342.1L1048.0 342.1L1052.0 342.1L1056.0 342.1L1060.0 342.1L1064.0 342.1L1068.0 342.1L1072.0 342.1L1076.0 342.1L1080.0 342.1L1084.0 342.0L1088.0 342.0L1092.0 342.0L1096.0 342.0L1100.0 342.0L1104.0 342.0L1108.0 342.0L1112.0 342.0L1116.0 342.0L1120.0 342.0" stroke="#5EEAD4" stroke-width="2.4" stroke-linecap="round" filter="url(#soft)"/>
+    <text x="1114" y="334" text-anchor="end" class="mono" font-size="11" fill="#4A5768">setpoint</text>
+    <text x="86" y="406" class="mono" font-size="11" fill="#8B98A9">y(t)  step response  <tspan fill="#F5B841">zeta = 0.32</tspan>   overshoot, settle, ship.</text>
+    <rect class="scan" x="80" y="306" width="2" height="106" fill="#F5B841" opacity=".7"/>
+  
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="459" rx="18" stroke="#223044"/>
+</svg>
