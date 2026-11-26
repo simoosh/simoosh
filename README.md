@@ -4,7 +4,7 @@
 
 <br>
 
-<a href="https://profscanner.netlify.app"><img src="https://img.shields.io/badge/LIVE-ProfScanner-0A0E14?style=for-the-badge&labelColor=5EEAD4&color=0F141C" alt="ProfScanner live"></a> <a href="https://odej-bejaia.netlify.app"><img src="https://img.shields.io/badge/LIVE-ODEJ%20Kiosk-0A0E14?style=for-the-badge&labelColor=7EE787&color=0F141C" alt="ODEJ Kiosk live"></a> <img src="https://img.shields.io/badge/BASED%20IN-B%C3%A9ja%C3%AFa%2C%20Algeria-0A0E14?style=for-the-badge&labelColor=F5B841&color=0F141C" alt="Based in Béjaïa, Algeria"> <img src="https://img.shields.io/badge/STATUS-open%20to%20opportunities-0A0E14?style=for-the-badge&labelColor=A78BFA&color=0F141C" alt="Open to opportunities">
+<a href="https://profscanner.netlify.app"><img src="https://img.shields.io/badge/LIVE-ProfScanner-0A0E14?style=for-the-badge&labelColor=5EEAD4&color=0F141C" alt="ProfScanner live"></a> <a href="https://odej-bejaia.netlify.app"><img src="https://img.shields.io/badge/LIVE-ODEJ%20Kiosk-0A0E14?style=for-the-badge&labelColor=7EE787&color=0F141C" alt="ODEJ Kiosk live"></a> <a href="https://sadeemv1.netlify.app"><img src="https://img.shields.io/badge/LIVE-Sadeem-0A0E14?style=for-the-badge&labelColor=F5B841&color=0F141C" alt="Sadeem live"></a> <img src="https://img.shields.io/badge/BASED%20IN-B%C3%A9ja%C3%AFa%2C%20Algeria-0A0E14?style=for-the-badge&labelColor=F5B841&color=0F141C" alt="Based in Béjaïa, Algeria"> <img src="https://img.shields.io/badge/STATUS-open%20to%20opportunities-0A0E14?style=for-the-badge&labelColor=A78BFA&color=0F141C" alt="Open to opportunities">
 
 </div>
 
@@ -58,11 +58,12 @@ Touch-screen kiosk of the Youth Establishments Office of Béjaïa, run on the st
 
 <sub><b>DEVELOPER</b> &nbsp;/&nbsp; GAMIFIED LEARNING &middot; 1ST PLACE NATIONAL</sub>
 
-<img src="assets/sadeem.webp" alt="Sadeem walkthrough: landing, sign-up, subject selection and lesson" width="100%">
+<a href="https://sadeemv1.netlify.app"><img src="assets/sadeem.webp" alt="Sadeem walkthrough: landing, sign-up, subject selection and lesson" width="100%"></a>
 
 Arabic-first learning platform for ages 5 to 17, built with Adem Mila and awarded first place at a national hackathon. XP, streaks, hearts, leaderboards, six mini-game types, and dedicated spaces for students, teachers, parents and administrators. Answers are validated server-side, the interface is fully right-to-left.
 
-**Stack** &nbsp; `React` `TypeScript` `Vite` `Tailwind` `React Three Fiber` `Node.js` `Express` `MongoDB` `JWT`
+**Stack** &nbsp; `React` `TypeScript` `Vite` `Tailwind` `React Three Fiber` `Node.js` `Express` `MongoDB` `JWT`<br>
+**Links** &nbsp; [Live demo](https://sadeemv1.netlify.app)
 
 <br>
 
